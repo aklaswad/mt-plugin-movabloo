@@ -1,0 +1,8 @@
+applications:
+    cms:
+        widgets:
+            movabloo:
+                label: Movabloo
+                template: movabloo.tmpl
+        methods:
+            movabloo: $Movabloo::Movabloo::install
